@@ -26,7 +26,7 @@ Next, provide the following information for your application settings:
 | Name                         | The name of your application.                                               |
 | Base URIs (optional)         | The domain(s) of your application.                                          |
 | Login redirect URIs          | Redirect URL (e.g.`https://authenticate.corp.example.com/oauth2/callback`). |
-| Group assignments (optional) | The user groups that can sign in to this application.                       |
+| Group assignments (optional) | The user groups that can sign in to this application. ([Group ID](https://developer.okta.com/docs/reference/api/groups/) e.g.`00g47ynliRysaiD95h6x`)                        |
 | Grant type allowed           | **You must enable Refresh Token.**                                          |
 
 ![Okta Create Application Settings](./img/okta-create-app-settings.png)
